@@ -9,10 +9,15 @@
 
 ## Observação
 
-O objetivo deste repositório é apenas para o meu _Aprendizado_, deixo aqui as atividades proposta com o intuíto de mostrar o meu conhecimento em JavaScript, todos os exercícios feitos nesse repositório foram feitos por mim com algumas modificações, porém toda inspiração aos execícios propostos no curso.
+O objetivo deste repositório é apenas para o meu _Aprendizado_, deixo aqui as atividades proposta com o intuito de mostrar o meu conhecimento em JavaScript, todos os exercícios feitos nesse repositório foram feitos por mim com algumas modificações, porém toda inspiração aos exercícios propostos no curso.
 
 [Curso JavaScript Curso em vídeo](https://www.youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1)
 
 ## Imagens
 
 [Site Pexels](https://www.pexels.com/)
+
+## Páginas
+> [página verificar idade](https://luciopbrito.github.io/curso-guanabara-exercicios/verificador-idade/)
+
+> [página hora do dia](https://luciopbrito.github.io/curso-guanabara-exercicios/hora-do-dia/)
