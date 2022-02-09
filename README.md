@@ -9,7 +9,7 @@
 
 ## Observação
 
-O objetivo deste repositório é apenas para o meu _Aprendizado_, deixo aqui as atividades proposta com o intuito de mostrar o meu conhecimento em JavaScript, todos os exercícios feitos nesse repositório foram feitos por mim com algumas modificações, porém toda inspiração aos exercícios propostos no curso.
+O objetivo deste repositório é apenas para o meu Aprendizado, deixo aqui as atividades propostas com o intuito de mostrar o meu conhecimento em JavaScript, todos os exercícios feitos nesse repositório foram feitos por mim com algumas modificações, porém toda inspiração aos exercícios propostos no curso.
 
 [Curso JavaScript Curso em vídeo](https://www.youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1)
 
