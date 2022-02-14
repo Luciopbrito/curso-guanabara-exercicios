@@ -17,33 +17,19 @@ function contador () {
     } else if (passo.value == '') {
         alert('[ERRO] Valor inválido');
         passo.focus();
-    }else if (passo.value <= 0 ) {
-        alert('[ERRO] Passo inválido! considerando PASSO = 1');
-
-        let i  = Number(inicio.value);
-        let f = Number(fim.value);
-        let p = 1;
-
-        if (i > f)  {
-            res.innerHTML = ''
-            for (let c = i; c >= f ; c += p) {
-                res.innerHTML += `&#128073 ${c}`;
-            }
-        } else {
-            res.innerHTML = ''
-            for (let c = i; c <= f ; c += p) {
-                res.innerHTML += `&#128073 ${c}`;
-            }
-        }
-        res.innerHTML += '&#128681' 
-    } else {
+    }else  {
         let i = Number(inicio.value);
         let f = Number(fim.value);
         let p = Number(passo.value);
 
-        if (c > f)  {
+        if (p <= 0 ) {
+            alert('[ERRO] Passo inválido! considerando PASSO = 1');
+            p = 1;
+        }
+    
+        if (i > f)  {
             res.innerHTML = ''
-            for (let c = i; c >= f ; c += p) {
+            for (let c = i; c >= f ; c -= p) {
                 res.innerHTML += `&#128073 ${c}`;
             }
         } else {
