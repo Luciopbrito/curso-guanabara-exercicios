@@ -18,6 +18,11 @@ O objetivo deste repositório é apenas para o meu Aprendizado, deixo aqui as at
 [Site Pexels](https://www.pexels.com/)
 
 ## Páginas
+
 > [página verificar idade](https://luciopbrito.github.io/curso-guanabara-exercicios/verificador-idade/)
 
 > [página hora do dia](https://luciopbrito.github.io/curso-guanabara-exercicios/hora-do-dia/)
+
+> [página super contador](https://luciopbrito.github.io/curso-guanabara-exercicios/contador/)
+
+> [página tabuada](https://luciopbrito.github.io/curso-guanabara-exercicios/tabuada/)
