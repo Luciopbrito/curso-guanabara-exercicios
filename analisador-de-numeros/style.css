@@ -1,0 +1,57 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font: normal 1.5rem Arial, sans-serif;
+  background-color: rgb(82, 109, 226);
+}
+
+header {
+  color: white;
+  text-align: center;
+}
+
+section {
+  background-color: white;
+  padding: 1.5rem;
+  width: 80%;
+  max-width: 500px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+}
+
+section div:nth-child(2) {
+  margin: 1rem 0 0 0;
+}
+
+footer {
+  text-align: center;
+  color: white;
+}
+
+select {
+  width: 15rem;
+  font-size: 1em;
+}
+
+/* ===================== 
+MEDIA QUERIES
+======================*/
+@media screen and (max-width: 456px) {
+  section div:nth-child(1n):nth-child(-n + 2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 562px) {
+  html {
+    font-size: 50%;
+  }
+}
