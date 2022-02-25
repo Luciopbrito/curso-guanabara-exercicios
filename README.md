@@ -27,4 +27,4 @@ O objetivo deste repositório é apenas para o meu Aprendizado, deixo aqui as at
 
 - [página tabuada](https://luciopbrito.github.io/curso-guanabara-exercicios/tabuada/)
 
-- [analisador de números](https://luciopbrito.github.io/curso-guanabara-exercicios/tabuada/)
+- [analisador de números](https://luciopbrito.github.io/curso-guanabara-exercicios/analisador-de-numeros/)
