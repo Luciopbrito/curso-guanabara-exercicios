@@ -18,32 +18,37 @@ function verificar (num_add) {
     } else {
         //criando elemento option com a posição dentro da array.
         listAdd.push(num_add);
-        let pos_listAdd = listAdd.indexOf(num_add);
         let op = document.createElement('option');
-        op.innerText = `Valor ${listAdd[pos_listAdd]} adicionado`
+        op.innerText = `Valor ${num_add} adicionado`;
         box_select.appendChild(op);
         res.innerHTML = ''
     }
+    txtn.value = '';
+    txtn.focus();
 }
 
 btn_finish.addEventListener('click', finalizar);
 
 function finalizar() {
-    listAdd.sort();
-    
-    let soma = () => {
-        let total = 0;
-        for (let pos in listAdd) {
-            total = total + listAdd[pos];
+    if (listAdd.length == 0) {
+        alert('Adicione valores antes de finalizar.')
+    } else {
+        listAdd.sort();
+        
+        let soma = () => {
+            let total = 0;
+            for (let pos in listAdd) {
+                total += listAdd[pos];
+            }
+            return total;
         }
-        return total;
+
+        let media = () => soma() / listAdd.length;
+        res.innerHTML = '';
+        res.innerHTML += `<p>Ao todo, temos ${listAdd.length} números cadastrados.</p>`;
+        res.innerHTML += `<p>O maior valor informado foi ${listAdd[listAdd.length - 1]}.</p>`;
+        res.innerHTML += `<p>O menor valor informado foi ${listAdd[0]}.</p>`;
+        res.innerHTML += `<p>Somando todos os valores, temos ${soma()}.</p>`;
+        res.innerHTML += `<p>A média dos valores digitados é ${media()}.</p>`;
     }
-
-    let media = () => soma() / listAdd.length;
-
-    res.innerHTML += `<p>Ao todo, temos ${listAdd.length} números cadastrados.</p>`;
-    res.innerHTML += `<p>O maior valor informado foi ${listAdd[listAdd.length - 1]}.</p>`;
-    res.innerHTML += `<p>O menor valor informado foi ${listAdd[0]}.</p>`;
-    res.innerHTML += `<p>Somando todos os valores, temos ${soma()}.</p>`;
-    res.innerHTML += `<p>A média dos valores digitados é ${media()}.</p>`;
 }
