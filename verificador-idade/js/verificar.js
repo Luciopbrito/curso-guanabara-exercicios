@@ -1,3 +1,5 @@
+'use scrict'
+
 const BOTAO = document.getElementsByTagName('input')[3];
 BOTAO.addEventListener('click', verificarIdadeSexo);
 let ano_nasc = document.getElementById('txtnasc');

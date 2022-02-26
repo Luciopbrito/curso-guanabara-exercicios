@@ -1,3 +1,5 @@
+'use scrict'
+
 const nTabuada = document.querySelector('input#txtn');
 const select = document.querySelector('select#res');
 

@@ -1,3 +1,5 @@
+'use scrict'
+
 let res = document.querySelector('div.res');
 // função modificando div res para representar o resultado
 function resultado(idade,sexo) {
