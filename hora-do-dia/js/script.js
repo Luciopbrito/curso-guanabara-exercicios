@@ -1,9 +1,9 @@
 'use scrict'
 
 function carregar (){
-    var msg = document.getElementById('msg');
-    var img = document.getElementById('img');
-    var hora = new Date().getHours();
+    let msg = document.getElementById('msg');
+    let img = document.getElementById('img');
+    let hora = new Date().getHours();
     msg.innerHTML = `Agora são ${hora} horas.`;
     if (hora >= 0 && hora < 12) {
         //bom dia
